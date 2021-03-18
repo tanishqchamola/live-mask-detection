@@ -1,11 +1,11 @@
 # Live Mask Detection using Convolutional Neural Network
-_Puneet, Tanishq Chamola, Siddharth Samber_
+_Puneet, Tanishq Chamola, Siddharth Samber_<br />
 _**CSE 7th semester, Chandigarh College of Engineering and Technology**_
 
 _Dataset - [https://github.com/balajisrinivas/Face-Mask-Detection/](https://github.com/balajisrinivas/Face-Mask-Detection/)_
 
-*Abstract: Face mask recognition has made considerable strides in the fields of computer vision and image processing. Several algorithms and classifiers have been used to construct a variety of face recognition models. We're using deep learning, Tensorflow, Keras, and opencv to train our covid-19 mask detector. This model has the potential to be useful in the area of safety. We have trained our model using Convolutional Neural Network and then we have tested our model on a dataset of static images and finally we have used that model for live face mask detection using a webcam.*
-*So basically this project has been divided into two parts, in the training part mask detection model will be trained using the dataset provided. and in the application part we will load our trained model to perform mask detection. We obtained training accuracy of about 99.49%, .We will be compiling our model using Adam Optimizer and we will use categorical Cross Entropy as a loss function. The output images are preprocessed for removing unwanted errors and will make a rectangle box around the mask or the face.*
+*Abstract: Face mask recognition has made considerable strides in the fields of computer vision and image processing. Several algorithms and classifiers have been used to construct a variety of face recognition models. We're using deep learning, Tensorflow, Keras, and opencv to train our covid-19 mask detector. This model has the potential to be useful in the area of safety. We have trained our model using Convolutional Neural Network and then we have tested our model on a dataset of static images and finally we have used that model for live face mask detection using a webcam.*<br />
+*So basically this project has been divided into two parts, in the training part mask detection model will be trained using the dataset provided. and in the application part we will load our trained model to perform mask detection. We obtained training accuracy of about 99.49%. We will be compiling our model using Adam Optimizer and we will use categorical Cross Entropy as a loss function. The output images are preprocessed for removing unwanted errors and will make a rectangle box around the mask or the face.*
 
 ## 1. Introduction
 
