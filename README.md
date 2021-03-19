@@ -22,7 +22,7 @@ In the field of image recognition and computer vision, face mask identification 
 #### 2.2 Dataset
 The source of our dataset is a github repository which is at [https://github.com/balajisrinivas/Face-Mask-Detection/](https://github.com/balajisrinivas/Face-Mask-Detection/). Our dataset consist of 3845 images out of which 1916 images are with mask 1929 images are without mask.
 
-| Category      | Without Mask |
+| Category      | Number of Images |
 | ------------- |:-------------:|
 | With Mask     | 1916     |
 | Without Mask  | 1929     |
@@ -55,7 +55,7 @@ for category in categories:
 ```
 
 #### 3.2 Training CNN (model making)
-The generic layers used in a CNN model are:
+The generic layers used in a CNN model are:<br />
 **Input Layer:** This is the first layer used in a CNN. This layer is used to take an image as input; also to instantiate a Keras tensor, the input layer is used.<br />
 **Convolutional Layer:** This layer is also known as the kernel. It is the foundation layer of CNN. The layer which extracts the input features from the image. There can be various convolutional layers with the first layer extracting the low level features from the image and the consecutive layers extracting the high level features.<br />
 **Pooling Layer:** It is a form of non-linear downsampling; performing dimensionality reduction, it reduces the computational power required to process the data. There are two types of pooling: Average Pooling and Max Pooling. The Max Pooling layer returns the maximum value from the image part covered by the convolutional layer. This layer performs dimensionality reduction and denoising, and hence creates feature maps that summarize all the input features.<br />
